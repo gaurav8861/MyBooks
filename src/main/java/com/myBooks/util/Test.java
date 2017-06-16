@@ -11,7 +11,7 @@ public class Test {
 		ProfileDTO profileDTO = new ProfileDTO();
 		profileDTO.setProfileId(1);
 		try {
-			loginService.signUp(profileDTO);
+			loginService.signUp(profileDTO); System.out.println("");
 		} catch (BookException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
